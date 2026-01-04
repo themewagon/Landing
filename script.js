@@ -27,26 +27,26 @@ const logoFooter = document.getElementById("logo-footer");
 themeToggle.addEventListener("click", () => {
     document.documentElement.classList.toggle("dark");
     if (document.documentElement.classList.contains("dark")) {
-        logo.src = "./assets/logo-light.svg";
+        logo.src = "/assets/logo-light.svg";
         themeToggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon-icon lucide-moon"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>`;
-        colorSplash.src = "./assets/color-splash.svg";
-        faqSplash.src = "./assets/color-splash.svg";
-        landingText.src = "./assets/landing-text-dark.svg";
-        logoFooter.src = "./assets/logo-light.svg";
+        colorSplash.src = "/assets/color-splash.svg";
+        faqSplash.src = "/assets/color-splash.svg";
+        landingText.src = "/assets/landing-text-dark.svg";
+        logoFooter.src = "/assets/logo-light.svg";
     } else {
-        logo.src = "./assets/logo-dark.svg";
+        logo.src = "/assets/logo-dark.svg";
         themeToggle.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun-icon lucide-sun"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>`;
-        colorSplash.src = "./assets/color-splash-light.svg";
-        faqSplash.src = "./assets/color-splash-light.svg";
-        landingText.src = "./assets/landing-text-light.svg";
-        logoFooter.src = "./assets/logo-dark.svg";
+        colorSplash.src = "/assets/color-splash-light.svg";
+        faqSplash.src = "/assets/color-splash-light.svg";
+        landingText.src = "/assets/landing-text-light.svg";
+        logoFooter.src = "/assets/logo-dark.svg";
     }
 });
 
 const logos = ["framer", "huawei", "instagram", "microsoft", "walmart"];
 const track = document.getElementById("logo-track");
 
-track.innerHTML = [...logos, ...logos].map((name) => `<img class="mx-11" src="../assets/companies-logo/${name}.svg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" width="100" height="100" draggable="false"/>`).join("");
+track.innerHTML = [...logos, ...logos].map((name) => `<img class="mx-11" src="./assets/companies-logo/${name}.svg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" width="100" height="100" draggable="false"/>`).join("");
 
 
 
