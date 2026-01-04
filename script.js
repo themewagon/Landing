@@ -46,7 +46,7 @@ themeToggle.addEventListener("click", () => {
 const logos = ["framer", "huawei", "instagram", "microsoft", "walmart"];
 const track = document.getElementById("logo-track");
 
-track.innerHTML = [...logos, ...logos].map((name) => `<img class="mx-11" src="/assets/companies-logo/${name}.svg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" width="100" height="100" draggable="false"/>`).join("");
+track.innerHTML = [...logos, ...logos].map((name) => `<img class="mx-11" src="./assets/companies-logo/${name}.svg" alt="${name.charAt(0).toUpperCase() + name.slice(1)}" width="100" height="100" draggable="false"/>`).join("");
 
 
 
