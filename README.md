@@ -29,6 +29,6 @@ Design and code are completely written by PrebuiltUI and the development team.
 
 ## License
 
- - Design and Code is Copyright &copy; PrebuiltUI[https://prebuiltui.com/]
+ - Design and Code is Copyright &copy; [PrebuiltUI](https://prebuiltui.com/)
  - Licensed under [MIT]
- - Distributed by ThemeWagon[https://themewagon.com]
+ - Distributed by [ThemeWagon](https://themewagon.com)
